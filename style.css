@@ -6,402 +6,519 @@ body {
   margin: 0;
 }
 
-  #navigationbar{
-    background-color: rgb(156, 156, 236);
-    box-shadow: 1px 2px 20px rgb(25, 1, 1);
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-   height: 10vh;
-   width: 100%;
-   position: fixed;
-   top: 0;
-   z-index: 444;
-   
+#navigationbar {
+  background-color: rgba(141, 141, 224, 0.95);
+  box-shadow: 1px 2px 20px rgb(25, 1, 1);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 444;
 
-  }
-  #navigationbar a{
-    color: #fff;
-    text-decoration: none;
-  }
-  #navigationbar img{
-     width: 110px;
- 
-  }
-  #navigationbar ul{
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
 
-  }
-  #navigationbar ul li{
-  
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
-    padding: 5px 10px 5px 10px;
-  }
+}
+#navigationbar a {
+  color: #fff;
+  text-decoration: none;
+}
 
-  #navigationbar ul li:hover{
-    background-color: rgba(229, 229, 234,0.4);
-    
-    border-radius: 20px;
-  }
+#navigationbar img {
+  width: 110px;
 
-#home{
+}
+
+#navigationbar ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+#navigationbar ul li {
+
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  padding: 5px 10px 5px 10px;
+}
+
+#navigationbar ul li:hover {
+  background-color: rgba(229, 229, 234, 0.4);
+
+  border-radius: 20px;
+}
+
+#home {
   height: 90vh;
- padding-top: 10vh;
+  padding-top: 10vh;
   background-color: #ffffff;
 }
-#home img{
+
+#home img {
   float: right;
   width: 400px;
   padding-right: 80px;
   padding-top: 80px;
 }
-#home h1{
+
+#home h1 {
   padding-top: 80px;
   font-size: 60px;
   padding-left: 40px;
 }
-#home p{
+
+#home p {
   padding-left: 40px;
   color: rgb(4, 25, 25);
   font-size: 20px;
 
 }
 
-#home button{
- padding: 8px 15px 8px 15px;
- background-color: red;
- border: none;
-border-radius: 20px;
-color: white;
-font-weight: 600;
-margin-left: 100px;
-margin-top: 100px;
+#home button {
+  padding: 8px 15px 8px 15px;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 100px;
 
 }
-#home button:hover{
+
+#home button:hover {
   color: black;
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
 }
 
-
-
 /* about start */
-#about-us{
+#about-us {
   width: 100%;
   height: 100vh;
   padding-top: 10vh;
   background-color: #fff;
 }
 
-#about-us h6{
+#about-us h6 {
   text-align: center;
   font-size: 30px;
   padding-top: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 5px;
- 
-  
-}
-#about{
-  display: flex;
-   justify-content: space-evenly;
-}
-#about img{ 
-height: 440px;
+
 
 }
-#about ul{
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#about img {
+  height: 440px;
+
+}
+
+#about ul {
   width: 50%;
 }
-#about ul h1{
+
+#about ul h1 {
   font-size: 50px;
-  color:blue ;
+  color: blue;
 }
-#about ul li{
+
+#about ul li {
   list-style-type: square;
   padding: 5px;
   font-size: 15px;
 }
-#about ul li:hover{
+
+#about ul li:hover {
   color: red;
 }
 
-
-
-
 /* start why to choose yammy */
-#feature{
+#feature {
   height: 90vh;
   padding-top: 10vh;
 }
-#feature h5{
+
+#feature h5 {
   padding-left: 30px;
- 
- 
+
+
   color: #fff;
   font-size: 40px;
-  
+
 }
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
- 
+
 }
 
- .container1 {
+.container1 {
   width: 23%;
   height: 300px;
   background-color: rgb(164, 197, 217);
   padding: 20px 20px 20px 20px;
   border: 1px solid rgb(146, 209, 232);
- margin-left: 20px;
- margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
   border-radius: 10px;
   transition: height 0.3s;
   text-align: center;
-} 
-.container1 h1{
+}
+
+.container1 h1 {
   color: #fff;
   font-size: 30px;
 }
 
-.container1:hover{
+.container1:hover {
   height: 350px;
 }
- .container2 {
+
+.container2 {
   text-align: center;
   width: 23%;
   height: 400px;
   background-color: rgb(158, 10, 10);
   padding: 10px 10px 10px 10px;
   border: 1px solid rgb(146, 209, 232);
- margin-left: 10px;
+  margin-left: 10px;
   color: aliceblue;
-} 
-.container2 h3{
+}
+
+.container2 h3 {
   font-size: 30px;
 }
-.container2 button{
+
+.container2 button {
   padding: 8px;
   margin-top: 30px;
   border-radius: 20px;
   border: transparent;
 }
-.container2 button:hover{
+
+.container2 button:hover {
   color: #fff;
   background-color: blue;
 }
 
-/* overview start */
-#overview{
+/* overview  start  ?? Achivement start */
+#overview {
   padding-top: 10vh;
   width: 100%;
   height: 90vh;
   position: relative;
+  margin-bottom: 120px;
 }
-
-#overview img{
- height: 102vh;
- width: 100%;
-position: absolute;
+#overview img {
+  height: 102vh;
+  width: 100%;
+  position: absolute;
 }
-.achivement{
+.achivement {
   position: absolute;
   display: flex;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: rgba(255, 255, 255,0.5);
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 50px;
   border-radius: 20px;
 }
-.achivement div{
+.achivement div {
   font-size: 40px;
-padding-left: 60px;
-color: #000000;
-font-weight: 600;
+  padding-left: 60px;
+  color: #000000;
+  font-weight: 600;
 }
+/* 
+contact start */
+
+#contact-address {
+  background-color: rgb(178, 191, 201);
+  display: flex;
+  width: 87%;
+  padding: 4%;
+  margin: auto;
+  margin-bottom: 5%;
+  box-shadow: 1px 4px 10px rgb(21, 21, 21);
+}
+.contact-address-map iframe {
+  width: 100%;
+  margin-left: 20px;
+}
+.contact-address-detail div {
+  color: rgb(0, 0, 0);
+}
+
+.contact-address-detail div i {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-address-detail h1 {
+  font-size: 30px;
+}
+
+/* 
+ footer start */
+#footer {
+  height: 30px;
+  background-color: black;
+  color: white;
+
+
+  text-align: center;
+}
+#footer a {
+  color: white;
+}
+#footer p {
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media screen and (min-width:200px) and (max-width: 600px) {
- 
-  
-  #navigationbar{
-   height: 13vh;
+
+
+  #navigationbar {
+    height: 13vh;
   }
-  #navigationbar img{
-     width: 220px;
+
+  #navigationbar img {
+    width: 220px;
   }
-  #navigationbar ul{
+
+  #navigationbar ul {
     width: 70%;
   }
 
 
 
 
-  #home{
-   width: 175%;
+  #home {
+    width: 175%;
     height: 150vh;
-   padding-top: 20vh;
-   
-  } 
-  #home img{
+    padding-top: 20vh;
+
+  }
+
+  #home img {
     position: relative;
     left: 50%;
-   transform: translate(-50%);
-     float: none;
+    transform: translate(-50%);
+    float: none;
     width: 350px;
     padding-right: 0px;
     padding-top: 0px;
   }
-  #home h1{
+
+  #home h1 {
     padding-top: 0px;
     font-size: 64px;
     padding-left: 20px;
     text-align: center;
   }
-  #home p{
+
+  #home p {
     padding-left: 20px;
     font-size: 30px;
-  text-align: center;
-  }
-  #home button{
-   font-size: 25px;
-  border-radius: 30px;
-  margin-left: 110px;
+    text-align: center;
   }
 
+  #home button {
+    font-size: 25px;
+    border-radius: 30px;
+    margin-left: 110px;
+  }
 
 
 
 
-  #about-us{
+
+  #about-us {
     margin-top: 10px;
     width: 175%;
-    height:auto;
+    height: auto;
     padding-top: 5vh;
     padding-bottom: 130px;
   }
-  
-  #about-us h6{
+
+  #about-us h6 {
     padding-top: 15px;
     letter-spacing: 5px;
-   
-    
+
+
   }
-  #about{
+
+  #about {
     display: flex;
     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+    justify-content: center;
+    align-items: center;
   }
-  #about img{ 
-  height: 300px;
-  
+
+  #about img {
+    height: 300px;
+
   }
-  #about ul{
+
+  #about ul {
     width: 90%;
   }
-  #about ul h1{
+
+  #about ul h1 {
     font-size: 55px;
   }
-  #about ul li{
-    
+
+  #about ul li {
+
     padding: 10px;
     font-size: 25px;
   }
 
 
-/* WHy to choose yammy */
+  /* WHy to choose yammy */
 
 
-#feature{
-  height: auto;
-  padding-top: 5vh;
-  width: 173%;
-}
-#feature h5{
-  padding-left: 30px;
- text-align: center;
- 
-  color: #fff;
-  font-size: 40px;
-  
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
- 
-}
+  #feature {
+    height: auto;
+    padding-top: 5vh;
+    width: 173%;
+  }
 
- .container1 {
-  width: 80%;
-  height: 200px;
-  padding: 1px 2px 2px 2px;
- margin: 20px 20px 20px 20px;
- 
-  transition: none;
-  text-align: center;
-} 
-.container1 h1{
-  color: #fff;
-  font-size: 30px;
-}
+  #feature h5 {
+    padding-left: 30px;
+    text-align: center;
 
-.container1:hover{
-  height: 100px;
-}
- .container2 {
-  width: 80%;
-  height: 300px;
- margin: auto;
-  
-} 
+    color: #fff;
+    font-size: 40px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+  }
+
+  .container1 {
+    width: 80%;
+    height: 200px;
+    padding: 1px 2px 2px 2px;
+    margin: 20px 20px 20px 20px;
+
+    transition: none;
+    text-align: center;
+  }
+
+  .container1 h1 {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .container1:hover {
+    height: 100px;
+  }
+
+  .container2 {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+
+  }
 
 
 
 
 
-#overview{
-  padding-top: 10vh;
-  width: 100%;
-  height: auto;
-  position: relative;
-  margin-top: 300px;
- margin-bottom: 700px;
-}
+  #overview {
+    padding-top: 10vh;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 300px;
+    margin-bottom: 700px;
+  }
 
-#overview img{
- height: auto;
- width: 174%;
-position: absolute;
-}
-.achivement{
-  position: absolute;
-  display: flex;
-  top: 300px;
-  left: 86%;
+  #overview img {
+    height: auto;
+    width: 174%;
+    position: absolute;
+  }
 
-}
-.achivement div{
-  font-size: 20px;
-padding-left: 40px;
+  .achivement {
+    position: absolute;
+    display: flex;
+    top: 300px;
+    left: 86%;
 
-}
+  }
+
+  .achivement div {
+    font-size: 20px;
+    padding-left: 40px;
+
+  }
+
+
+
+
+  #contact-address {
+    background-color: rgb(178, 191, 201);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+  }
+
+
+
+  .contact-address-map iframe {
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+
+
+
+
+
+
+
 
 
 }
