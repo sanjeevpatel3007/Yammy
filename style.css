@@ -500,14 +500,15 @@ contact start */
     display: flex;
     flex-direction: column;
     width: 90%;
+     margin: auto;
 
   }
 
 
 
   .contact-address-map iframe {
-    width: 80%;
-    height: 50vh;
+    width: 90%;
+    height: 30vh;
     margin: auto;
     margin-top: 30px;
   }
